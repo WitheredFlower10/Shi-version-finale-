@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\ \r\n\ Cet\ analyseur\ lit\ les\ entr\u00E9es\ de\ l'utilisateur\ et\ essaie\ de\ les\ interpr\u00E9ter\ comme\ une\ commande.\r\n\ Chaque\ fois\ qu'il\ est\ appel\u00E9,\ il\ lit\ une\ ligne\ du\ terminal\ et\ tente\ de\ l'interpr\u00E9ter\ comme\ une\ commande.\r\n\ Il\ renvoie\ la\ commande\ comme\ un\ objet\ de\ la\ classe\ Command.\r\n\r\n\ Le\ parseur\ a\ un\ ensemble\ de\ mots\ de\ commande\ connus.\ Il\ v\u00E9rifie\ l'entr\u00E9e\ de\ l'utilisateur\ par\ rapport\r\n\ aux\ commandes\ connues,\ et\ si\ l'entr\u00E9e\ n'est\ pas\ une\ des\ commandes\ connues,\ il\ renvoie\ un\ objet\ de\ commande\ qui\ est\ marqu\u00E9\ comme\ une\ commande\ inconnue.\r\n\ \r\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\ +\ D.Bureau\ modifi\u00E9e\ par\ HAKIM\ Justine\r\n\ @version\ 2008.03.30\ +\ 2013.09.15\ +\ 15/02/2023\r\n
+comment1.params=
+comment1.target=Parser()
+comment1.text=\r\n\ Constructeur\ par\ defaut\ qui\ cree\ l'objet\ pr\u00E9vu\ pour\ l'attribut\ aValidCommands\r\n
+comment2.params=pInputLine
+comment2.target=Command\ getCommand(java.lang.String)
+comment2.text=\r\n\ R\u00E9cup\u00E8re\ la\ commande\ et\ renvoie\ une\ commande\ interpr\u00E9table\ par\ les\ fonctions\r\n\ \r\n\ @param\ pInputLine\ String\ qui\ permet\ de\ lire\ la\ commande\r\n\ @return\ La\ prochaine\ commande\ du\ joueur.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCommandString()
+comment3.text=\r\n\ Affiche\ une\ liste\ des\ commandes\ valides.\r\n\ \r\n\ @return\ La\ liste\ des\ commandes\ valides.\r\n
+numComments=4

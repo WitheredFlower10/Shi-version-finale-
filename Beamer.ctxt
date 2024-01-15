@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Beamer
+comment0.text=\r\n\ \ La\ classe\ Beamer\ repr\u00E9sente\ un\ objet\ "Beamer"\ dans\ le\ jeu.\r\n\ \ Le\ Beamer\ est\ un\ dispositif\ qui\ permet\ \u00E0\ un\ joueur\ de\ se\ t\u00E9l\u00E9porter\ instantan\u00E9ment\ vers\ une\ pi\u00E8ce\ qu'il\ a\ d\u00E9j\u00E0\ visit\u00E9e.\r\n\ \ Cette\ classe\ h\u00E9rite\ de\ la\ classe\ Item\ et\ poss\u00E8de\ les\ attributs\ n\u00E9cessaires\ pour\ g\u00E9rer\ l'\u00E9tat\ de\ charge\ du\ Beamer\ et\ la\ derni\u00E8re\ pi\u00E8ce\ dans\ laquelle\ il\ a\ \u00E9t\u00E9\ charg\u00E9.\ \r\n\ \ Elle\ contient\ \u00E9galement\ des\ m\u00E9thodes\ pour\ charger\ et\ d\u00E9charger\ le\ Beamer,\ et\ pour\ obtenir\ des\ informations\ sur\ l'\u00E9tat\ actuel\ du\ Beamer.\r\n\r\n\ @author\ HAKIM\ Justine\r\n\ @version\ 02/05/2023\r\n
+comment1.params=pName\ pDescription\ pWeight
+comment1.target=Beamer(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructeur\ naturel\ d'objets\ de\ classe\ Beamer\r\n\ \r\n\ @param\ pName\ Nom\ du\ Beamer\r\n\ @param\ pDescription\ Description\ du\ Beamer\r\n\ @param\ pWeight\ Poids\ du\ Beamer\r\n
+comment2.params=
+comment2.target=Room\ getChargedRoom()
+comment2.text=\r\n\ Accesseur\ de\ la\ derni\u00E8re\ pi\u00E8ce\ o\u00F9\ le\ Beamer\ a\ \u00E9t\u00E9\ charg\u00E9.\r\n\ \r\n\ @return\ La\ derni\u00E8re\ pi\u00E8ce\ o\u00F9\ le\ Beamer\ a\ \u00E9t\u00E9\ charg\u00E9.\r\n
+comment3.params=
+comment3.target=boolean\ isCharged()
+comment3.text=\r\n\ Fonction\ bool\u00E9enne\ qui\ v\u00E9rifie\ si\ le\ beamer\ est\ charg\u00E9\r\n\ \r\n\ @return\ Vrai\ si\ une\ pi\u00E8ce\ est\ stock\u00E9e\ dans\ le\ beamer,\ Faux\ dans\ le\ cas\ contraire\r\n
+comment4.params=pChargedRoom
+comment4.target=void\ charged(Room)
+comment4.text=\r\n\ Charge\ le\ Beamer\ dans\ la\ pi\u00E8ce\ sp\u00E9cifi\u00E9e\ en\ stockant\ la\ pi\u00E8ce\ dans\ laquelle\ il\ est\ charg\u00E9.\r\n\ \r\n\ @param\ pChargedRoom\ La\ pi\u00E8ce\ dans\ laquelle\ le\ Beamer\ est\ charg\u00E9\r\n
+comment5.params=
+comment5.target=void\ discharged()
+comment5.text=\r\n\ D\u00E9charge\ le\ Beamer,\ le\ d\u00E9sactivant.\r\n
+numComments=6

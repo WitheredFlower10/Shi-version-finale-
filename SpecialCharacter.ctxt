@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SpecialCharacter
+comment0.text=\r\n\ La\ classe\ SpecialCharacter\ repr\u00E9sente\ un\ personnage\ sp\u00E9cial\ dans\ le\ jeu.\r\n\ Elle\ h\u00E9rite\ de\ la\ classe\ Character.\r\n\ Un\ personnage\ sp\u00E9cial\ poss\u00E8de\ un\ nom,\ un\ dialogue,\ une\ r\u00E9ponse\ correcte\ \u00E0\ une\ \u00E9nigme\ et\ une\ r\u00E9compense.\r\n\ Il\ peut\ \u00E9galement\ v\u00E9rifier\ si\ tous\ les\ objets\ requis\ sont\ pr\u00E9sents\ dans\ une\ liste\ d'objets.\r\n\ \r\n\ @author\ HAKIM\ Justine\r\n\ @version\ 21/05/2023\r\n
+comment1.params=pName\ pDialog\ pCorrectAnswer\ pReward
+comment1.target=SpecialCharacter(java.lang.String,\ java.lang.String,\ java.lang.String,\ Item)
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ SpecialCharacter\r\n\ \r\n\ @param\ pName\ Le\ nom\ du\ personnage\ sp\u00E9cial.\r\n\ @param\ pDialog\ Le\ dialogue\ du\ personnage\ sp\u00E9cial.\r\n\ @param\ pCorrectAnswer\ La\ r\u00E9ponse\ correcte\ \u00E0\ l'\u00E9nigme\ pos\u00E9e\ par\ le\ personnage\ sp\u00E9cial.\r\n\ @param\ pReward\ La\ r\u00E9compense\ attribu\u00E9e\ par\ le\ personnage\ sp\u00E9cial.\r\n
+comment2.params=pItems
+comment2.target=boolean\ checkAllItems(ItemList)
+comment2.text=\r\n\ V\u00E9rifie\ si\ tous\ les\ objets\ requis\ sont\ pr\u00E9sents\ dans\ une\ liste\ d'objets.\r\n\ \r\n\ @param\ pItems\ La\ liste\ d'objets\ \u00E0\ v\u00E9rifier.\r\n\ @return\ true\ si\ tous\ les\ objets\ requis\ sont\ pr\u00E9sents,\ false\ sinon.\r\n
+numComments=3

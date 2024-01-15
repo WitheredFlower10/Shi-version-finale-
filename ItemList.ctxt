@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ItemList
+comment0.text=\r\n\ Classe\ ItemList\r\n\ \r\n\ La\ classe\ ItemList\ permet\ de\ g\u00E9rer\ une\ liste\ d'items\ et\ mutualise\ ainsi\ la\ gestion\ des\ items\ qui\ se\ retrouvait\ dupliqu\u00E9e\ dans\ Room\ et\ dans\ Player.\ \r\n\ Cette\ classe\ utilise\ une\ HashMap\ pour\ stocker\ les\ objets,\ avec\ le\ nom\ de\ l'objet\ comme\ clef\ et\ l'objet\ lui-m\u00EAme\ comme\ valeur\ associ\u00E9e.\r\n\ Cette\ classe\ poss\u00E8de\ des\ m\u00E9thodes\ pour\ ajouter\ et\ supprimer\ des\ items,\ r\u00E9cup\u00E9rer\ un\ item\ par\ son\ nom,\ r\u00E9cup\u00E9rer\ la\ liste\ compl\u00E8te\ des\ items\ sous\ forme\ de\ cha\u00EEne\ de\ caract\u00E8res,\ et\ r\u00E9cup\u00E9rer\ la\ HashMap\ des\ objets\ pr\u00E9sents\ dans\ l'inventaire.\r\n\ Cette\ classe\ est\ utilis\u00E9e\ par\ les\ classes\ Room\ et\ Player\ pour\ g\u00E9rer\ les\ objets\ qui\ se\ trouvent\ dans\ une\ pi\u00E8ce\ ou\ dans\ l'inventaire\ du\ joueur.\r\n\r\n\ @author\ HAKIM\ Justine\r\n\ @version\ 10/04/2023\r\n
+comment1.params=
+comment1.target=ItemList()
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ ItemList\r\n
+comment2.params=pItem
+comment2.target=Item\ getItem(java.lang.String)
+comment2.text=\r\n\ Accesseur\ de\ l'item\r\n\ Cette\ m\u00E9thode\ permet\ d'acc\u00E9der\ \u00E0\ l'objet\ "Item"\ stock\u00E9\ dans\ la\ HashMap\ en\ fonction\ de\ la\ cl\u00E9\ "pItem".\r\n\ \r\n\ @param\ pItem\ Clef\ de\ l'item\ \u00E0\ r\u00E9cup\u00E9rer\ dans\ la\ HashMap\r\n\ @return\ L'objet\ "Item"\ li\u00E9\ \u00E0\ la\ clef\ "pItem"\r\n
+comment3.params=
+comment3.target=java.util.HashMap\ getItemsInventory()
+comment3.text=\r\n\ Accesseur\ permettant\ d'acc\u00E9der\ \u00E0\ la\ HashMap\ des\ objets\ pr\u00E9sents\ dans\ la\ liste\ d'items.\r\n\ \r\n\ @return\ La\ HashMap\ des\ objets\ pr\u00E9sents\ dans\ la\ liste\ d'items.\ L'inventaire.\r\n
+comment4.params=pName\ pItem
+comment4.target=void\ addItem(java.lang.String,\ Item)
+comment4.text=\r\n\ Ajoute\ un\ objet\ "Item\ "\u00E0\ la\ liste\ en\ l'associant\ \u00E0\ la\ cl\u00E9\ "pName"\r\n\ \ \ \ \ \ \r\n\ @param\ pName\ Clef\ de\ la\ HashMap\ associ\u00E9e\ \u00E0\ l'objet\ "Item"\ \u00E0\ ajouter\ (nom\ de\ l'item)\r\n\ @param\ pItem\ L'objet\ "Item"\ \u00E0\ ajouter\ dans\ la\ HashMap\r\n
+comment5.params=pName\ pItem
+comment5.target=void\ removeItem(java.lang.String,\ Item)
+comment5.text=\r\n\ Supprime\ un\ objet\ "Item"\ de\ notre\ HashMap,\ de\ la\ liste\ en\ utilisant\ la\ cl\u00E9\ "pName".\r\n\ \r\n\ @param\ pName\ La\ cl\u00E9\ associ\u00E9e\ \u00E0\ l'objet\ "Item"\ \u00E0\ supprimer\ de\ la\ liste.\ \ \ \r\n\ @param\ pItem\ L'objet\ "Item"\ \u00E0\ supprimer\ de\ la\ liste.\r\n
+comment6.params=pNom
+comment6.target=boolean\ hasItem(java.lang.String)
+comment6.text=\r\n\ Teste\ si\ la\ liste\ contient\ l'item\ demand\u00E9.\r\n\ \r\n\ @param\ pNom\ Le\ nom\ de\ l'item\ \u00E0\ rechercher\ dans\ la\ liste\r\n\ @return\ Vrai\ si\ la\ liste\ contient\ l'item,\ Faux\ dans\ le\ cas\ contraire\r\n
+comment7.params=
+comment7.target=java.lang.String\ getItemString()
+comment7.text=\r\n\ Accesseur\ d'une\ cha\u00EEne\ de\ caract\u00E8res\ repr\u00E9sentant\ tous\ les\ objets\ "Item"\ stock\u00E9s\ dans\ la\ liste.\r\n\ \ \r\n\ @return\ Une\ cha\u00EEne\ de\ caract\u00E8res\ repr\u00E9sentant\ les\ objets\ "Item"\ stock\u00E9s\ dans\ la\ liste.\ \r\n\ Si\ la\ liste\ est\ vide,\ la\ m\u00E9thode\ renvoie\ "D\u00E9sol\u00E9...Il\ n'y\ a\ pas\ d'objets...".\r\n
+numComments=8

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Door
+comment0.text=\r\n\ La\ classe\ Door\ permet\ de\ cr\u00E9er\ des\ portes\ ferm\u00E9es\ et\ ouvrables\ avec\ une\ cl\u00E9.\r\n\r\n\ La\ classe\ Door\ repr\u00E9sente\ une\ porte\ dans\ le\ jeu.\r\n\ Une\ porte\ peut\ \u00EAtre\ verrouill\u00E9e\ ou\ d\u00E9verrouill\u00E9e.\ Elle\ peut\ \u00EAtre\ associ\u00E9e\ \u00E0\ une\ cl\u00E9.\r\n\ La\ classe\ contient\ des\ m\u00E9thodes\ pour\ r\u00E9cup\u00E9rer\ la\ cl\u00E9\ associ\u00E9e\ \u00E0\ la\ porte,\ verrouiller\ la\ porte\ avec\ une\ cl\u00E9\ donn\u00E9e,\ et\ v\u00E9rifier\ si\ la\ porte\ est\ verrouill\u00E9e.\r\n\ \r\n\ @author\ HAKIM\ Justine\r\n\ @version\ 03/05/2023\r\n
+comment1.params=
+comment1.target=Door()
+comment1.text=\r\n\ Constructeur\ par\ d\u00E9faut\ de\ la\ classe\ Door.\r\n\ Initialise\ l'\u00E9tat\ de\ la\ porte\ \u00E0\ false,\ ce\ qui\ signifie\ qu'elle\ est\ d\u00E9verrouill\u00E9e.\r\n
+comment2.params=
+comment2.target=Item\ getKey()
+comment2.text=\r\n\ Renvoie\ la\ cl\u00E9\ associ\u00E9e\ \u00E0\ cette\ porte.\r\n\ \r\n\ @return\ La\ cl\u00E9\ associ\u00E9e\ \u00E0\ cette\ porte.\r\n
+comment3.params=pKey
+comment3.target=void\ lock(Item)
+comment3.text=\r\n\ Verrouille\ la\ porte\ avec\ la\ cl\u00E9\ donn\u00E9e.\r\n\ \r\n\ @param\ pKey\ la\ cl\u00E9\ utilis\u00E9e\ pour\ verrouiller\ la\ porte\r\n
+comment4.params=
+comment4.target=boolean\ isLocked()
+comment4.text=\r\n\ V\u00E9rifie\ si\ la\ porte\ est\ verrouill\u00E9e.\r\n\ \r\n\ @return\ un\ bool\u00E9en\ indiquant\ si\ la\ porte\ est\ verrouill\u00E9e\ (true)\ ou\ non\ (false)\r\n
+numComments=5

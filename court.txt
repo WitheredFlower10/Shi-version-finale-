@@ -1,0 +1,13 @@
+reculer
+aller montée
+aide
+regarder
+retour
+aller ouest 
+aller nord
+aller nord
+aller nord
+aller est
+aller est
+alea Kuri
+quitter

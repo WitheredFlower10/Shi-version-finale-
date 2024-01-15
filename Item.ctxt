@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ La\ classe\ Item\ permet\ de\ mettre\ des\ items\ dans\ des\ pi\u00E8ces\r\n\ La\ classe\ Item\ repr\u00E9sente\ un\ objet\ dans\ le\ jeu.\r\n\ Elle\ permet\ de\ d\u00E9finir\ des\ items\ qui\ peuvent\ \u00EAtre\ plac\u00E9s\ dans\ les\ pi\u00E8ces.\r\n\ Chaque\ item\ a\ un\ nom,\ une\ description\ et\ un\ poids.\r\n\ \r\n\ @author\ HAKIM\ Justine\r\n\ @version\ 27/03/2023\r\n
+comment1.params=pName\ pDescription\ pWeight
+comment1.target=Item(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ Constructeur\ naturel\ d'objets\ de\ classe\ Item\r\n\ \r\n\ @param\ pName\ Nom\ de\ l'item\r\n\ @param\ pDescription\ Description\ de\ l'item\r\n\ @param\ pWeight\ Poids\ de\ l'item\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Accesseur\ pour\ le\ nom\ de\ l'item\r\n\ \r\n\ @return\ Nom\ de\ l'item\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\r\n\ Accesseur\ pour\ la\ description\ de\ l'item\r\n\ \r\n\ @return\ Description\ de\ l'item\r\n
+comment4.params=
+comment4.target=double\ getWeight()
+comment4.text=\r\n\ Accesseur\ pour\ le\ poids\ de\ l'item\r\n\ \r\n\ @return\ Poids\ de\ l'item\r\n
+comment5.params=
+comment5.target=java.lang.String\ getItemDescription()
+comment5.text=\ \r\n\ Accesseur\ pour\ la\ description\ compl\u00E8te\ de\ l'item\r\n\ \r\n\ @return\ La\ description\ compl\u00E8te\ de\ l'item,\ incluant\ le\ nom,\ la\ description\ et\ le\ poids.\ \ \ \ \ \r\n
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TransporterRoom
+comment0.text=\r\n\ La\ classe\ TransporterRoom\ repr\u00E9sente\ une\ pi\u00E8ce\ de\ type\ "Transporteur".\r\n\ Une\ pi\u00E8ce\ de\ type\ Transporteur\ permet\ de\ se\ t\u00E9l\u00E9porter\ al\u00E9atoirement\ vers\ une\ autre\ pi\u00E8ce.\r\n\ Elle\ h\u00E9rite\ de\ la\ classe\ Room.\r\n\r\n\ @author\ HAKIM\ Justine\r\n\ @version\ 21/05/2023\r\n
+comment1.params=pName\ pDescription\ pImageName
+comment1.target=TransporterRoom(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ TransporterRoom\r\n\ Il\ cr\u00E9e\ un\ objet\ TransporterRoom\ avec\ un\ nom,\ une\ description\ et\ le\ nom\ de\ l'image\ associ\u00E9e.\r\n\r\n\ @param\ pName\ Le\ nom\ de\ la\ pi\u00E8ce.\r\n\ @param\ pDescription\ La\ description\ de\ la\ pi\u00E8ce.\r\n\ @param\ pImageName\ Le\ nom\ de\ l'image\ associ\u00E9e\ \u00E0\ la\ pi\u00E8ce.\r\n
+comment2.params=pDirection
+comment2.target=Room\ getExit(java.lang.String)
+comment2.text=\r\n\ Red\u00E9finition\ de\ la\ m\u00E9thode\ getExit\ de\ la\ classe\ m\u00E8re\ Room.\r\n\ Cette\ m\u00E9thode\ renvoie\ une\ pi\u00E8ce\ al\u00E9atoire\ \u00E0\ la\ place\ de\ la\ pi\u00E8ce\ de\ sortie\ normale.\r\n\r\n\ @param\ pDirection\ La\ direction\ de\ sortie\ de\ la\ pi\u00E8ce.\r\n\ @return\ Une\ pi\u00E8ce\ al\u00E9atoire\ s\u00E9lectionn\u00E9e\ par\ le\ RoomRandomizer.\r\n
+comment3.params=
+comment3.target=Room\ getRandomRoom()
+comment3.text=\r\n\ Renvoie\ une\ pi\u00E8ce\ al\u00E9atoire.\r\n\r\n\ @return\ Une\ pi\u00E8ce\ al\u00E9atoire\ s\u00E9lectionn\u00E9e\ par\ le\ RoomRandomizer.\r\n
+comment4.params=
+comment4.target=RoomRandomizer\ getRoomRandomizer()
+comment4.text=\r\n\ Accesseur\ pour\ l'objet\ RoomRandomizer\ de\ la\ pi\u00E8ce\ Transporter.\r\n\r\n\ @return\ L'objet\ RoomRandomizer\ associ\u00E9\ \u00E0\ la\ pi\u00E8ce\ Transporter.\r\n
+numComments=5

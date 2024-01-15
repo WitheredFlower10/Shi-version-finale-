@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ Classe\ Game\ -\ le\ moteur\ du\ jeu\ d'aventure.\r\n\ Cette\ classe\ est\ le\ moteur\ principal\ du\ jeu.\r\n\ \r\n\ Pour\ jouer\ \u00E0\ ce\ jeu,\ cr\u00E9ez\ une\ instance\ de\ cette\ classe.\r\n\ \r\n\ Elle\ contient\ un\ attribut\ UserInterface\ qui\ permet\ de\ g\u00E9rer\ l'interface\ utilisateur.\r\n\ Elle\ contient\ un\ attribut\ GameEngine\ qui\ permet\ de\ g\u00E9rer\ la\ logique\ du\ jeu.\r\n\ Lorsqu'une\ instance\ de\ Game\ est\ cr\u00E9\u00E9e,\ elle\ demande\ un\ pseudo\ \u00E0\ l'utilisateur\ gr\u00E2ce\ \u00E0\ la\ classe\ JOptionPane.\r\n\ Ce\ pseudo\ est\ ensuite\ transmis\ au\ GameEngine\ pour\ initialiser\ le\ joueur.\r\n\ Cette\ classe\ ne\ poss\u00E8de\ pas\ de\ m\u00E9thode\ particuli\u00E8re,\ mais\ elle\ permet\ de\ lancer\ le\ jeu\ en\ cr\u00E9ant\ une\ instance\ de\ GameEngine\ et\ de\ UserInterface\ et\ en\ les\ reliant\ entre\ eux.\r\n\ \r\n\ @author\ HAKIM\ Justine\r\n\ @version\ 15/02/2023\r\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\r\n\ Constructeur\ par\ d\u00E9faut\ de\ la\ classe\ Game\r\n\ Instancie\ le\ jeu\r\n
+numComments=2

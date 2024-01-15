@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CommandWords
+comment0.text=\r\n\ Cette\ classe\ est\ la\ classe\ principale\ du\ jeu\ d'aventure.\ \r\n\ \ \r\n\ Cette\ classe\ contient\ un\ tableau\ d'\u00E9numeration\ de\ toutes\ les\ commandes\ disponibles\ dans\ le\ jeu.\ \r\n\ Elle\ est\ utilis\u00E9e\ pour\ reconna\u00EEtre\ les\ commandes\ lorsqu'elles\ sont\ tap\u00E9es\ par\ le\ joueur.\r\n\r\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\ +\ D.Bureau\ modifi\u00E9e\ par\ HAKIM\ Justine\r\n\ @version\ 2008.03.30\ +\ 2019.09.25\ +\ 15/02/2023\r\n
+comment1.params=pString
+comment1.target=boolean\ isCommand(java.lang.String)
+comment1.text=\r\n\ V\u00E9rifie\ si\ une\ cha\u00EEne\ de\ caract\u00E8res\ est\ une\ commande\ valide.\ \r\n\ \r\n\ @param\ pString\ Une\ cha\u00EEne\ de\ caract\u00E8re\ \u00E0\ v\u00E9rifier\r\n\ @return\ Vrai\ si\ la\ commande\ entr\u00E9e\ est\ valide,\ Faux\ si\ la\ commande\ ne\ l'est\ pas\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCommandList()
+comment2.text=\r\n\ R\u00E9cup\u00E8re\ la\ liste\ de\ toutes\ les\ commandes\ valides.\r\n\ \r\n\ @return\ Les\ commandes\ valides\ sous\ forme\ de\ cha\u00EEne\ de\ caract\u00E8res,\ sinon\ rien.\r\n
+numComments=3

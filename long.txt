@@ -1,0 +1,76 @@
+carte
+parler Yuri
+aide
+parler Haruki
+prendre Jinbaori
+ingérer Jinbaori
+prendre Jinbaori
+jeter Jinbaori
+prendre Jinbaori
+prendre livre
+aller montée
+prendre Shukkô.ki
+décharger Shukkô.ki
+charger Shukkô.ki
+prendre Hitatare.et.hakama
+aller est
+parler Dan
+aller nord
+prendre Livre.Torii
+regarder Livre.Torii
+aller sud
+parler Dan
+inventaire
+aller nord
+parler Yakushi.Nyorai
+aller nord
+gagner
+prendre ¥50
+charger Sauce.Soja
+prendre Sauce.Soja
+parler Maître.Kai
+aller sud
+parler Yakushi.Nyorai
+aller nord
+parler
+aller nord
+prendre Kote
+parler Prêtre
+répondre Prêtre:bougie
+décharger Shukkô.ki
+regarder Shukkô.ki
+aller ouest 
+aide
+parler Maman
+prendre Saké
+ingérer Saké
+prendre Sobas 
+ingérer Sobas
+parler Sanji
+aller nord
+aller nord
+regarder
+prendre ¥50
+parler Maître.Zoro
+aller sud
+parler Statue.Sacrée
+aller nord
+inventaire
+aller nord
+parler Katakuri
+répondre Katakuri:temps
+aller est
+parler Abbé
+aller est
+alea Karesansui
+aller ouest
+aller ouest
+aller ouest
+parler Sogen
+regarder
+aller est
+aller est
+parler Haruki
+aller est
+parler Shizue
+gagner
